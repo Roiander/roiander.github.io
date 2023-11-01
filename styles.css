@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+header {
+    background-color: #88a7d0; /* Azul pastel */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px;
+}
+
+section h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Estilos para botones */
+a {
+    display: inline-block;
+    background-color: #88a7d0; /* Azul pastel */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #005c8f; /* Azul más oscuro al pasar el ratón */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #88a7d0; /* Azul pastel */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
