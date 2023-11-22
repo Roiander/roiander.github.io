@@ -1,67 +1,120 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #f8f8f8; /* Fondo gris claro */
+    color: #333; /* Color de texto principal */
 }
 
 header {
-    background-color: #88a7d0; /* Azul pastel */
+    background-color: #3498db; /* Azul brillante */
     color: #fff;
     padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ecf0f1; /* Color de texto al pasar el ratón */
 }
 
 /* Estilos para las secciones */
 section {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #fff; /* Fondo blanco para las secciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    margin-bottom: 20px;
 }
 
 section h1 {
-    font-size: 2em;
-    color: #333;
+    font-size: 2.5em;
+    color: #3498db; /* Azul brillante */
+    margin-bottom: 10px;
 }
 
 section p {
     font-size: 1.2em;
-    color: #666;
+    color: #555; /* Color de texto más oscuro */
+    margin-bottom: 20px;
 }
 
 /* Estilos para botones */
-a {
+.cta-button {
     display: inline-block;
-    background-color: #88a7d0; /* Azul pastel */
+    background-color: #3498db; /* Azul brillante */
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
-a:hover {
-    background-color: #005c8f; /* Azul más oscuro al pasar el ratón */
+.cta-button:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el ratón */
+}
+
+/* Estilos para la imagen */
+section img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra para las imágenes */
+    max-width: 100%; /* Imágenes no superan el ancho de su contenedor */
+    height: auto;
 }
 
 /* Estilos para el footer */
 footer {
-    background-color: #88a7d0; /* Azul pastel */
+    background-color: #3498db; /* Azul brillante */
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Estilos para la sección de descarga */
+#descarga {
+    text-align: center; /* Centrar el contenido en la sección de descarga */
+}
+
+/* Estilos para los botones de descarga */
+#descarga a.cta-button {
+    display: inline-block;
+    background-color: #3498db; /* Azul brillante */
+    color: #fff;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Ajustar el margen inferior */
+}
+
+#descarga a.cta-button:last-child {
+    margin-bottom: 0; /* Eliminar el margen inferior del último botón */
 }
